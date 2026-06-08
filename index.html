@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>World Cup 2026 Sweepstakes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --green: #006847;
+    --gold: #C8A84B;
+    --dark: #0a0f0d;
+    --mid: #1a2420;
+    --card: #111a16;
+    --border: rgba(200,168,75,0.2);
+    --text: #e8f0ec;
+    --muted: rgba(232,240,236,0.45);
+    --elim: #1a1a1a;
+    --elim-text: rgba(255,255,255,0.2);
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--dark);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  header {
+    background: var(--mid);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem 1.5rem 1.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(200,168,75,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .trophy { font-size: 2.5rem; display: block; margin-bottom: 0.5rem; }
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.2rem, 6vw, 3.5rem);
+    letter-spacing: 0.04em;
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 0.3rem;
+  }
+  .subtitle {
+    font-size: 0.85rem;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .last-updated {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+  }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    background: var(--green);
+    border-bottom: 1px solid var(--border);
+  }
+  .stat {
+    flex: 1;
+    max-width: 160px;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    border-right: 1px solid rgba(255,255,255,0.12);
+  }
+  .stat:last-child { border-right: none; }
+  .stat-n {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: #fff;
+  }
+  .stat-l {
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    margin-top: 2px;
+  }
+
+  /* Controls */
+  .controls {
+    max-width: 900px;
+    margin: 1.5rem auto 0;
+    padding: 0 1rem;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .search-wrap { flex: 1; min-width: 200px; position: relative; }
+  .search-wrap svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); opacity: 0.4; }
+  input[type=text] {
+    width: 100%;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    padding: 9px 12px 9px 36px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  input[type=text]:focus { border-color: var(--gold); }
+  input[type=text]::placeholder { color: var(--muted); }
+  .filter-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+  .fbtn {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--muted);
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    padding: 7px 14px;
+    letter-spacing: 0.04em;
+    transition: all 0.15s;
+  }
+  .fbtn:hover { border-color: var(--gold); color: var(--text); }
+  .fbtn.active { background: var(--gold); border-color: var(--gold); color: var(--dark); font-weight: 500; }
+
+  /* Grid */
+  .grid {
+    max-width: 900px;
+    margin: 1.2rem auto 3rem;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1rem 0.9rem;
+    transition: transform 0.15s, border-color 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--gold);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .card:hover { transform: translateY(-2px); border-color: rgba(200,168,75,0.5); }
+  .card:hover::before { opacity: 1; }
+  .card.eliminated {
+    background: var(--elim);
+    border-color: rgba(255,255,255,0.06);
+    opacity: 0.55;
+  }
+  .card.eliminated:hover { transform: none; border-color: rgba(255,255,255,0.06); }
+  .card.eliminated::before { display: none; }
+  .card.winner {
+    border-color: var(--gold);
+    background: linear-gradient(135deg, var(--card) 0%, rgba(200,168,75,0.08) 100%);
+  }
+  .card.winner::before { opacity: 1; }
+
+  .card-flag { font-size: 2rem; display: block; margin-bottom: 8px; line-height: 1; }
+  .card-team {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: 0.03em;
+    color: var(--text);
+    line-height: 1.1;
+    margin-bottom: 4px;
+  }
+  .card.eliminated .card-team { color: var(--elim-text); }
+  .card-person { font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .card.eliminated .card-person { color: var(--elim-text); }
+  .card-group {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: rgba(255,255,255,0.05);
+    border-radius: 4px;
+    padding: 2px 7px;
+  }
+  .card.eliminated .card-group { opacity: 0.3; }
+  .status-badge {
+    position: absolute;
+    top: 10px; right: 10px;
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 2px 7px;
+  }
+  .badge-active { background: rgba(0,104,71,0.35); color: #5dd4a4; }
+  .badge-elim { background: rgba(255,255,255,0.05); color: var(--elim-text); }
+  .badge-winner { background: var(--gold); color: var(--dark); font-weight: 500; }
+  .winner-crown { font-size: 1rem; }
+
+  /* Empty state */
+  .empty {
+    grid-column: 1/-1;
+    text-align: center;
+    color: var(--muted);
+    padding: 3rem;
+    font-size: 14px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .controls { gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="trophy">🏆</span>
+  <h1>World Cup 2026 Sweepstakes</h1>
+  <p class="subtitle">Survival Tracker</p>
+  <p class="last-updated" id="last-updated"></p>
+</header>
+
+<div class="stats-bar">
+  <div class="stat"><div class="stat-n" id="s-alive">—</div><div class="stat-l">Still in</div></div>
+  <div class="stat"><div class="stat-n" id="s-elim">—</div><div class="stat-l">Eliminated</div></div>
+  <div class="stat"><div class="stat-n" id="s-total">48</div><div class="stat-l">Total</div></div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+    <input type="text" id="search" placeholder="Search name or country..." oninput="render()"/>
+  </div>
+  <div class="filter-btns">
+    <button class="fbtn active" data-filter="all" onclick="setFilter(this)">All</button>
+    <button class="fbtn" data-filter="active" onclick="setFilter(this)">Still in</button>
+    <button class="fbtn" data-filter="eliminated" onclick="setFilter(this)">Eliminated</button>
+  </div>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  Updated by the sweepstakes organiser &mdash; data from <code>results.json</code>
+</footer>
+
+<script>
+let data = [];
+let filter = 'all';
+
+async function load() {
+  try {
+    const res = await fetch('results.json?v=' + Date.now());
+    const json = await res.json();
+    data = json.participants;
+    const d = new Date(json.last_updated);
+    document.getElementById('last-updated').textContent =
+      'Last updated: ' + d.toLocaleDateString('en-AU', {day:'numeric',month:'long',year:'numeric'});
+  } catch(e) {
+    document.getElementById('grid').innerHTML =
+      '<div class="empty">Could not load results.json — make sure it is in the same folder as this file.</div>';
+    return;
+  }
+  render();
+}
+
+function setFilter(btn) {
+  document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filter = btn.dataset.filter;
+  render();
+}
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase();
+  let rows = [...data];
+  if (q) rows = rows.filter(r =>
+    r.person.toLowerCase().includes(q) ||
+    r.team.toLowerCase().includes(q)
+  );
+  if (filter === 'active')     rows = rows.filter(r => r.status !== 'eliminated');
+  if (filter === 'eliminated') rows = rows.filter(r => r.status === 'eliminated');
+
+  // Sort: winner first, then active alphabetically, then eliminated
+  rows.sort((a, b) => {
+    const order = s => s === 'winner' ? 0 : s === 'active' ? 1 : 2;
+    if (order(a.status) !== order(b.status)) return order(a.status) - order(b.status);
+    return a.person.localeCompare(b.person);
+  });
+
+  const alive  = data.filter(r => r.status !== 'eliminated').length;
+  const elim   = data.filter(r => r.status === 'eliminated').length;
+  document.getElementById('s-alive').textContent = alive;
+  document.getElementById('s-elim').textContent  = elim;
+
+  const grid = document.getElementById('grid');
+  if (!rows.length) {
+    grid.innerHTML = '<div class="empty">No results found.</div>';
+    return;
+  }
+
+  grid.innerHTML = rows.map(r => {
+    const isElim   = r.status === 'eliminated';
+    const isWinner = r.status === 'winner';
+    const cardCls  = isWinner ? 'card winner' : isElim ? 'card eliminated' : 'card';
+    const badgeCls = isWinner ? 'status-badge badge-winner' : isElim ? 'status-badge badge-elim' : 'status-badge badge-active';
+    const badgeTxt = isWinner ? '🏆 Winner' : isElim ? 'Out' : 'Active';
+    return `<div class="${cardCls}">
+      <span class="status-badge ${isWinner ? 'badge-winner' : isElim ? 'badge-elim' : 'badge-active'}">${badgeTxt}</span>
+      <span class="card-flag">${r.flag}</span>
+      <div class="card-team">${r.team}</div>
+      <div class="card-person">${r.person}</div>
+      <span class="card-group">Group ${r.group}</span>
+    </div>`;
+  }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
