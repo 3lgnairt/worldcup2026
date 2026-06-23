@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-21",
+  "last_updated": "2026-06-23",
   "participants": [
     {
       "person": "Adam Piggott",
@@ -140,7 +140,7 @@
       "team": "Tunisia",
       "flag": "🇹🇳",
       "group": "F",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Gabriel Haselhurst",
