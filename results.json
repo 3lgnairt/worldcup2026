@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-23",
+  "last_updated": "2026-06-29",
   "participants": [
     {
       "person": "Adam Piggott",
@@ -14,14 +14,14 @@
       "team": "Uruguay",
       "flag": "🇺🇾",
       "group": "H",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Alex Tibbitt",
       "team": "Czechia",
       "flag": "🇨🇿",
       "group": "A",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Andrew Blair",
@@ -42,7 +42,7 @@
       "team": "Uzbekistan",
       "flag": "🇺🇿",
       "group": "K",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Ashan Fonseka",
@@ -77,14 +77,14 @@
       "team": "Jordan",
       "flag": "🇯🇴",
       "group": "J",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Christian Nettleton",
       "team": "Curaçao",
       "flag": "🇨🇼",
       "group": "E",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Christopher Francis",
@@ -98,7 +98,7 @@
       "team": "Iran",
       "flag": "🇮🇷",
       "group": "G",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Cooper Littlefair",
@@ -175,14 +175,14 @@
       "team": "Scotland",
       "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "group": "C",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Jack Rundle",
       "team": "Qatar",
       "flag": "🇶🇦",
       "group": "B",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "James Chilcott",
@@ -210,21 +210,21 @@
       "team": "Saudi Arabia",
       "flag": "🇸🇦",
       "group": "H",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Justin Pavlinovich",
       "team": "Panama",
       "flag": "🇵🇦",
       "group": "L",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Lachlan Harrington",
       "team": "South Korea",
       "flag": "🇰🇷",
       "group": "A",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Lachlan Pavlinovich",
@@ -308,14 +308,14 @@
       "team": "Iraq",
       "flag": "🇮🇶",
       "group": "I",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Timothy Adams",
       "team": "New Zealand",
       "flag": "🇳🇿",
       "group": "G",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Timothy Bewick",
