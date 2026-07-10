@@ -1,13 +1,13 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-06-29",
+  "last_updated": "2026-07-09",
   "participants": [
     {
       "person": "Adam Piggott",
       "team": "Ecuador",
       "flag": "🇪🇨",
       "group": "E",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Aidan Hobbs",
@@ -35,7 +35,7 @@
       "team": "Egypt",
       "flag": "🇪🇬",
       "group": "G",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Aran Johal",
@@ -49,28 +49,28 @@
       "team": "Netherlands",
       "flag": "🇳🇱",
       "group": "F",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Brendan Payne",
       "team": "Paraguay",
       "flag": "🇵🇾",
       "group": "D",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Brent Bottomley",
       "team": "Colombia",
       "flag": "🇨🇴",
       "group": "K",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Carlu Martens",
       "team": "Portugal",
       "flag": "🇵🇹",
       "group": "K",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Chris Page",
@@ -91,7 +91,7 @@
       "team": "Australia",
       "flag": "🇦🇺",
       "group": "D",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Codie Parata",
@@ -105,35 +105,35 @@
       "team": "Ivory Coast",
       "flag": "🇨🇮",
       "group": "E",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Daniel Ace-Heaton",
       "team": "Canada",
       "flag": "🇨🇦",
       "group": "B",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Dhaneel Goven",
       "team": "South Africa",
       "flag": "🇿🇦",
       "group": "A",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Digby House",
       "team": "DR Congo",
       "flag": "🇨🇩",
       "group": "K",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Donovan Flack",
       "team": "Brazil",
       "flag": "🇧🇷",
       "group": "C",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Emily Galvin",
@@ -189,21 +189,21 @@
       "team": "Austria",
       "flag": "🇦🇹",
       "group": "J",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "James Pavlinovich",
       "team": "Japan",
       "flag": "🇯🇵",
       "group": "F",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Jaryd Tacken",
       "team": "Cape Verde",
       "flag": "🇨🇻",
       "group": "H",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Jayden Loton",
@@ -238,28 +238,28 @@
       "team": "Senegal",
       "flag": "🇸🇳",
       "group": "I",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Mackensie D'Alton",
       "team": "Ghana",
       "flag": "🇬🇭",
       "group": "L",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Owen Clark",
       "team": "United States",
       "flag": "🇺🇸",
       "group": "D",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Quinlan Paice",
       "team": "Sweden",
       "flag": "🇸🇪",
       "group": "F",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Rhys Smoker",
@@ -280,14 +280,14 @@
       "team": "Algeria",
       "flag": "🇩🇿",
       "group": "J",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Struan Tooth",
       "team": "Germany",
       "flag": "🇩🇪",
       "group": "E",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Thomas Baxter",
@@ -301,7 +301,7 @@
       "team": "Croatia",
       "flag": "🇭🇷",
       "group": "L",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Tim Wallis",
@@ -322,7 +322,7 @@
       "team": "Mexico",
       "flag": "🇲🇽",
       "group": "A",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Toby Austin",
@@ -336,7 +336,7 @@
       "team": "Bosnia & Herzegovina",
       "flag": "🇧🇦",
       "group": "B",
-      "status": "active"
+      "status": "eliminated"
     }
   ]
 }
