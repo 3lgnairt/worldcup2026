@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-12",
   "participants": [
     {
       "person": "Adam Piggott",
@@ -231,7 +231,7 @@
       "team": "Norway",
       "flag": "🇳🇴",
       "group": "I",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Luke Checker",
@@ -266,7 +266,7 @@
       "team": "Switzerland",
       "flag": "🇨🇭",
       "group": "B",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Roger Sastre Armillas",
@@ -329,7 +329,7 @@
       "team": "Belgium",
       "flag": "🇧🇪",
       "group": "G",
-      "status": "active"
+      "status": "eliminated"
     },
     {
       "person": "Tony Ziegelaar",
