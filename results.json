@@ -1,350 +1,341 @@
 {
-  "competition": "Curtin University Hockey Club — World Cup 2026 Sweepstakes",
-  "entry_fee": 10,
-  "closes": "2026-06-11",
-  "max_entries": 48,
-  "prizes": {
-    "1st": "$100 Varsity Voucher",
-    "2nd": "$50 Varsity Voucher",
-    "3rd": "$25 Varsity Voucher"
-  },
+  "tournament": "FIFA World Cup 2026",
   "last_updated": "2026-07-16",
-  "entries": 24,
-  "teams": [
+  "participants": [
     {
-      "team": "United States",
-      "flag": "🇺🇸",
-      "group": "D",
       "person": "Adam Piggott",
-      "status": "eliminated"
-    },
-    {
-      "team": "Tunisia",
-      "flag": "🇹🇳",
-      "group": "F",
-      "person": "Adam Piggott",
-      "status": "eliminated"
-    },
-    {
-      "team": "Brazil",
-      "flag": "🇧🇷",
-      "group": "C",
-      "person": "Mackensie D'Alton",
-      "status": "eliminated"
-    },
-    {
-      "team": "New Zealand",
-      "flag": "🇳🇿",
-      "group": "G",
-      "person": "Mackensie D'Alton",
-      "status": "eliminated"
-    },
-    {
-      "team": "Iran",
-      "flag": "🇮🇷",
-      "group": "G",
-      "person": "Elly Parker",
-      "status": "eliminated"
-    },
-    {
-      "team": "Paraguay",
-      "flag": "🇵🇾",
-      "group": "D",
-      "person": "Elly Parker",
-      "status": "eliminated"
-    },
-    {
-      "team": "Australia",
-      "flag": "🇦🇺",
-      "group": "D",
-      "person": "Daryl Andrews",
-      "status": "eliminated"
-    },
-    {
-      "team": "Ivory Coast",
-      "flag": "🇨🇮",
-      "group": "E",
-      "person": "Daryl Andrews",
-      "status": "eliminated"
-    },
-    {
-      "team": "Senegal",
-      "flag": "🇸🇳",
-      "group": "I",
-      "person": "David Graham",
-      "status": "eliminated"
-    },
-    {
-      "team": "Haiti",
-      "flag": "🇭🇹",
-      "group": "C",
-      "person": "David Graham",
-      "status": "eliminated"
-    },
-    {
-      "team": "Croatia",
-      "flag": "🇭🇷",
-      "group": "L",
-      "person": "Patrick Clark",
-      "status": "eliminated"
-    },
-    {
-      "team": "Canada",
-      "flag": "🇨🇦",
-      "group": "B",
-      "person": "Patrick Clark",
-      "status": "eliminated"
-    },
-    {
-      "team": "Switzerland",
-      "flag": "🇨🇭",
-      "group": "B",
-      "person": "Gabrielle Bruce",
-      "status": "eliminated"
-    },
-    {
-      "team": "Iraq",
-      "flag": "🇮🇶",
-      "group": "I",
-      "person": "Gabrielle Bruce",
-      "status": "eliminated"
-    },
-    {
-      "team": "Colombia",
-      "flag": "🇨🇴",
-      "group": "K",
-      "person": "Kimberley Mais",
-      "status": "eliminated"
-    },
-    {
-      "team": "Qatar",
-      "flag": "🇶🇦",
-      "group": "B",
-      "person": "Kimberley Mais",
-      "status": "eliminated"
-    },
-    {
-      "team": "Uruguay",
-      "flag": "🇺🇾",
-      "group": "H",
-      "person": "Emily Voight",
-      "status": "eliminated"
-    },
-    {
-      "team": "Uzbekistan",
-      "flag": "🇺🇿",
-      "group": "K",
-      "person": "Emily Voight",
-      "status": "eliminated"
-    },
-    {
-      "team": "Japan",
-      "flag": "🇯🇵",
-      "group": "F",
-      "person": "Owen Clark",
-      "status": "eliminated"
-    },
-    {
-      "team": "Norway",
-      "flag": "🇳🇴",
-      "group": "I",
-      "person": "Owen Clark",
-      "status": "eliminated"
-    },
-    {
-      "team": "Spain",
-      "flag": "🇪🇸",
-      "group": "H",
-      "person": "Jess Crane",
-      "status": "active"
-    },
-    {
-      "team": "Saudi Arabia",
-      "flag": "🇸🇦",
-      "group": "H",
-      "person": "Jess Crane",
-      "status": "eliminated"
-    },
-    {
-      "team": "Mexico",
-      "flag": "🇲🇽",
-      "group": "A",
-      "person": "Abi Needham",
-      "status": "eliminated"
-    },
-    {
-      "team": "Bosnia & Herzegovina",
-      "flag": "🇧🇦",
-      "group": "B",
-      "person": "Abi Needham",
-      "status": "eliminated"
-    },
-    {
-      "team": "Austria",
-      "flag": "🇦🇹",
-      "group": "J",
-      "person": "Tom Lees",
-      "status": "eliminated"
-    },
-    {
-      "team": "Egypt",
-      "flag": "🇪🇬",
-      "group": "G",
-      "person": "Tom Lees",
-      "status": "eliminated"
-    },
-    {
-      "team": "Morocco",
-      "flag": "🇲🇦",
-      "group": "C",
-      "person": "Aaron Breen",
-      "status": "eliminated"
-    },
-    {
-      "team": "Curaçao",
-      "flag": "🇨🇼",
-      "group": "E",
-      "person": "Aaron Breen",
-      "status": "eliminated"
-    },
-    {
-      "team": "Germany",
-      "flag": "🇩🇪",
-      "group": "E",
-      "person": "Tom Forrest",
-      "status": "eliminated"
-    },
-    {
-      "team": "South Africa",
-      "flag": "🇿🇦",
-      "group": "A",
-      "person": "Tom Forrest",
-      "status": "eliminated"
-    },
-    {
-      "team": "France",
-      "flag": "🇫🇷",
-      "group": "I",
-      "person": "Quinlan Paice",
-      "status": "eliminated"
-    },
-    {
-      "team": "Czechia",
-      "flag": "🇨🇿",
-      "group": "A",
-      "person": "Quinlan Paice",
-      "status": "eliminated"
-    },
-    {
-      "team": "South Korea",
-      "flag": "🇰🇷",
-      "group": "A",
-      "person": "Aidan Lawrence",
-      "status": "eliminated"
-    },
-    {
-      "team": "Panama",
-      "flag": "🇵🇦",
-      "group": "L",
-      "person": "Aidan Lawrence",
-      "status": "eliminated"
-    },
-    {
-      "team": "Portugal",
-      "flag": "🇵🇹",
-      "group": "K",
-      "person": "Emily Leng",
-      "status": "eliminated"
-    },
-    {
-      "team": "Jordan",
-      "flag": "🇯🇴",
-      "group": "J",
-      "person": "Emily Leng",
-      "status": "eliminated"
-    },
-    {
-      "team": "Turkiye",
-      "flag": "🇹🇷",
-      "group": "D",
-      "person": "Zoe McGregor",
-      "status": "eliminated"
-    },
-    {
-      "team": "DR Congo",
-      "flag": "🇨🇩",
-      "group": "K",
-      "person": "Zoe McGregor",
-      "status": "eliminated"
-    },
-    {
-      "team": "Netherlands",
-      "flag": "🇳🇱",
-      "group": "F",
-      "person": "Thomas Pavlinovich",
-      "status": "eliminated"
-    },
-    {
-      "team": "Ghana",
-      "flag": "🇬🇭",
-      "group": "L",
-      "person": "Thomas Pavlinovich",
-      "status": "eliminated"
-    },
-    {
-      "team": "Belgium",
-      "flag": "🇧🇪",
-      "group": "G",
-      "person": "Benjamin Mountford",
-      "status": "eliminated"
-    },
-    {
-      "team": "Sweden",
-      "flag": "🇸🇪",
-      "group": "F",
-      "person": "Benjamin Mountford",
-      "status": "eliminated"
-    },
-    {
-      "team": "Argentina",
-      "flag": "🇦🇷",
-      "group": "J",
-      "person": "Meredith Kelly",
-      "status": "active"
-    },
-    {
-      "team": "Algeria",
-      "flag": "🇩🇿",
-      "group": "J",
-      "person": "Meredith Kelly",
-      "status": "eliminated"
-    },
-    {
-      "team": "England",
-      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "group": "L",
-      "person": "Tom Reid",
-      "status": "eliminated"
-    },
-    {
-      "team": "Scotland",
-      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "group": "C",
-      "person": "Tom Reid",
-      "status": "eliminated"
-    },
-    {
       "team": "Ecuador",
       "flag": "🇪🇨",
       "group": "E",
-      "person": "Julie Branley",
       "status": "eliminated"
     },
     {
+      "person": "Aidan Hobbs",
+      "team": "Uruguay",
+      "flag": "🇺🇾",
+      "group": "H",
+      "status": "eliminated"
+    },
+    {
+      "person": "Alex Tibbitt",
+      "team": "Czechia",
+      "flag": "🇨🇿",
+      "group": "A",
+      "status": "eliminated"
+    },
+    {
+      "person": "Andrew Blair",
+      "team": "France",
+      "flag": "🇫🇷",
+      "group": "I",
+      "status": "eliminated"
+    },
+    {
+      "person": "Anthony Kleinman",
+      "team": "Egypt",
+      "flag": "🇪🇬",
+      "group": "G",
+      "status": "eliminated"
+    },
+    {
+      "person": "Aran Johal",
+      "team": "Uzbekistan",
+      "flag": "🇺🇿",
+      "group": "K",
+      "status": "eliminated"
+    },
+    {
+      "person": "Ashan Fonseka",
+      "team": "Netherlands",
+      "flag": "🇳🇱",
+      "group": "F",
+      "status": "eliminated"
+    },
+    {
+      "person": "Brendan Payne",
+      "team": "Paraguay",
+      "flag": "🇵🇾",
+      "group": "D",
+      "status": "eliminated"
+    },
+    {
+      "person": "Brent Bottomley",
+      "team": "Colombia",
+      "flag": "🇨🇴",
+      "group": "K",
+      "status": "eliminated"
+    },
+    {
+      "person": "Carlu Martens",
+      "team": "Portugal",
+      "flag": "🇵🇹",
+      "group": "K",
+      "status": "eliminated"
+    },
+    {
+      "person": "Chris Page",
+      "team": "Jordan",
+      "flag": "🇯🇴",
+      "group": "J",
+      "status": "eliminated"
+    },
+    {
+      "person": "Christian Nettleton",
+      "team": "Curaçao",
+      "flag": "🇨🇼",
+      "group": "E",
+      "status": "eliminated"
+    },
+    {
+      "person": "Christopher Francis",
+      "team": "Australia",
+      "flag": "🇦🇺",
+      "group": "D",
+      "status": "eliminated"
+    },
+    {
+      "person": "Codie Parata",
+      "team": "Iran",
+      "flag": "🇮🇷",
+      "group": "G",
+      "status": "eliminated"
+    },
+    {
+      "person": "Cooper Littlefair",
+      "team": "Ivory Coast",
+      "flag": "🇨🇮",
+      "group": "E",
+      "status": "eliminated"
+    },
+    {
+      "person": "Daniel Ace-Heaton",
+      "team": "Canada",
+      "flag": "🇨🇦",
+      "group": "B",
+      "status": "eliminated"
+    },
+    {
+      "person": "Dhaneel Goven",
+      "team": "South Africa",
+      "flag": "🇿🇦",
+      "group": "A",
+      "status": "eliminated"
+    },
+    {
+      "person": "Digby House",
+      "team": "DR Congo",
+      "flag": "🇨🇩",
+      "group": "K",
+      "status": "eliminated"
+    },
+    {
+      "person": "Donovan Flack",
+      "team": "Brazil",
+      "flag": "🇧🇷",
+      "group": "C",
+      "status": "eliminated"
+    },
+    {
+      "person": "Emily Galvin",
+      "team": "Tunisia",
+      "flag": "🇹🇳",
+      "group": "F",
+      "status": "eliminated"
+    },
+    {
+      "person": "Gabriel Haselhurst",
+      "team": "England",
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "group": "L",
+      "status": "eliminated"
+    },
+    {
+      "person": "German Machelett",
+      "team": "Argentina",
+      "flag": "🇦🇷",
+      "group": "J",
+      "status": "active"
+    },
+    {
+      "person": "Glenn Norris",
+      "team": "Turkiye",
+      "flag": "🇹🇷",
+      "group": "D",
+      "status": "eliminated"
+    },
+    {
+      "person": "Jack Hall",
+      "team": "Haiti",
+      "flag": "🇭🇹",
+      "group": "C",
+      "status": "eliminated"
+    },
+    {
+      "person": "Jack Loneragan",
+      "team": "Scotland",
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "group": "C",
+      "status": "eliminated"
+    },
+    {
+      "person": "Jack Rundle",
+      "team": "Qatar",
+      "flag": "🇶🇦",
+      "group": "B",
+      "status": "eliminated"
+    },
+    {
+      "person": "James Chilcott",
+      "team": "Austria",
+      "flag": "🇦🇹",
+      "group": "J",
+      "status": "eliminated"
+    },
+    {
+      "person": "James Pavlinovich",
+      "team": "Japan",
+      "flag": "🇯🇵",
+      "group": "F",
+      "status": "eliminated"
+    },
+    {
+      "person": "Jaryd Tacken",
       "team": "Cape Verde",
       "flag": "🇨🇻",
       "group": "H",
-      "person": "Julie Branley",
+      "status": "eliminated"
+    },
+    {
+      "person": "Jayden Loton",
+      "team": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "group": "H",
+      "status": "eliminated"
+    },
+    {
+      "person": "Justin Pavlinovich",
+      "team": "Panama",
+      "flag": "🇵🇦",
+      "group": "L",
+      "status": "eliminated"
+    },
+    {
+      "person": "Lachlan Harrington",
+      "team": "South Korea",
+      "flag": "🇰🇷",
+      "group": "A",
+      "status": "eliminated"
+    },
+    {
+      "person": "Lachlan Pavlinovich",
+      "team": "Norway",
+      "flag": "🇳🇴",
+      "group": "I",
+      "status": "eliminated"
+    },
+    {
+      "person": "Luke Checker",
+      "team": "Senegal",
+      "flag": "🇸🇳",
+      "group": "I",
+      "status": "eliminated"
+    },
+    {
+      "person": "Mackensie D'Alton",
+      "team": "Ghana",
+      "flag": "🇬🇭",
+      "group": "L",
+      "status": "eliminated"
+    },
+    {
+      "person": "Owen Clark",
+      "team": "United States",
+      "flag": "🇺🇸",
+      "group": "D",
+      "status": "eliminated"
+    },
+    {
+      "person": "Quinlan Paice",
+      "team": "Sweden",
+      "flag": "🇸🇪",
+      "group": "F",
+      "status": "eliminated"
+    },
+    {
+      "person": "Rhys Smoker",
+      "team": "Switzerland",
+      "flag": "🇨🇭",
+      "group": "B",
+      "status": "eliminated"
+    },
+    {
+      "person": "Roger Sastre Armillas",
+      "team": "Spain",
+      "flag": "🇪🇸",
+      "group": "H",
+      "status": "active"
+    },
+    {
+      "person": "Scott Roberts",
+      "team": "Algeria",
+      "flag": "🇩🇿",
+      "group": "J",
+      "status": "eliminated"
+    },
+    {
+      "person": "Struan Tooth",
+      "team": "Germany",
+      "flag": "🇩🇪",
+      "group": "E",
+      "status": "eliminated"
+    },
+    {
+      "person": "Thomas Baxter",
+      "team": "Morocco",
+      "flag": "🇲🇦",
+      "group": "C",
+      "status": "eliminated"
+    },
+    {
+      "person": "Thomas Pavlinovich",
+      "team": "Croatia",
+      "flag": "🇭🇷",
+      "group": "L",
+      "status": "eliminated"
+    },
+    {
+      "person": "Tim Wallis",
+      "team": "Iraq",
+      "flag": "🇮🇶",
+      "group": "I",
+      "status": "eliminated"
+    },
+    {
+      "person": "Timothy Adams",
+      "team": "New Zealand",
+      "flag": "🇳🇿",
+      "group": "G",
+      "status": "eliminated"
+    },
+    {
+      "person": "Timothy Bewick",
+      "team": "Mexico",
+      "flag": "🇲🇽",
+      "group": "A",
+      "status": "eliminated"
+    },
+    {
+      "person": "Toby Austin",
+      "team": "Belgium",
+      "flag": "🇧🇪",
+      "group": "G",
+      "status": "eliminated"
+    },
+    {
+      "person": "Tony Ziegelaar",
+      "team": "Bosnia & Herzegovina",
+      "flag": "🇧🇦",
+      "group": "B",
       "status": "eliminated"
     }
   ]
